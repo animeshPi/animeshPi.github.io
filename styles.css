@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #1052D0;
+    color: #F6F6F3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #F6F6F3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color: #D0DFEE;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px;
+    background-color: #F6F6F3;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: #D0DFEE;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #F6F6F3;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
